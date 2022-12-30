@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <link rel="stylesheet" href="./CV_style.css"/>
     <title>CV</title>
 </head>
 <body>    
+
+    <div class="CV">
     <hr />
 
-    <h1> Oleksii Bezkorovainyi</h1>
+    <h1 class="title"> Oleksii Bezkorovainyi</h1>
 
     <img src="Photo.jpg"
         alt="The image of a candidate"
@@ -17,7 +19,7 @@
     <h3> Work experience</h3>    
 
     <table border="1" cellspacing="0" cellpadding="10">
-        <thead>
+        <thead class="headers">
             <tr>
                 <td><h3>Period</h3></td>
                 <td><h3>Position</h3></td>
@@ -26,18 +28,18 @@
         <tbody>
             <tr>
                 <td>2021 - present</td>
-                <td>Trainee in <a href="https://genesis-ctb.org">Genesis-ctb </a>design studio.</td>
+                <td>Trainee in <a href="https://genesis-ctb.org" class="links">Genesis-ctb </a>design studio.</td>
             </tr>
             <tr>
-                <td rowspan="1"><strong>Description</strong></td>
+                <td rowspan="1" class="headers"><strong>Description</strong></td>
                 <td>Creating something in interior design.</td>                
             </tr>            
             <tr>
                 <td>2020 - 2021</td>
-                <td>Designer in <a href="https://hothome-vr.com">Hothome </a>VR company.</td>
+                <td>Designer in <a href="https://hothome-vr.com" class="links">Hothome </a>VR company.</td>
             </tr>
             <tr>
-                <td rowspan="2"><strong>Description</strong></td>
+                <td rowspan="2" class="headers"><strong>Description</strong></td>
                 <td>Creating something in VR.</td>                                 
             </tr>
             <tr>                
@@ -47,7 +49,7 @@
     </table>
 
     <h2> Skills:</h2> 
-    <ul>
+    <ul class="items">
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
@@ -59,6 +61,7 @@
         <li>Developed some projects</li>
         <li>Did many interesting things on the previous projects</li>
     </ol>
-    
+
+    </div>
 </body>
 </html>

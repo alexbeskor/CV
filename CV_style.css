@@ -1,0 +1,32 @@
+.CV {
+   color : #333;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3 {
+    font-weight: bold;
+}
+
+.title {
+    font-style: italic;
+}
+
+.headers {
+    text-transform: uppercase;;
+}
+
+.links {
+    color: #00f;
+}
+
+.links.visited {
+    color: #005;
+}
+
+.links:hover {
+    text-decoration: none;    
+}
+
+.items {
+    list-style-type: square;    
+}

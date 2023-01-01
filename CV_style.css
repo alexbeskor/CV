@@ -12,7 +12,8 @@
 }
 
 .headers {
-    text-transform: uppercase;;
+    text-transform: uppercase;
+    background-color: aquamarine;
 }
 
 .links {
@@ -29,4 +30,19 @@
 
 .items {
     list-style-type: square;    
+}
+
+.background-table {
+    background-color: beige;
+}
+
+.image-candidate {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+#lower-underline {
+    border: 1px solid rgb(0, 136, 91);
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;    
 }

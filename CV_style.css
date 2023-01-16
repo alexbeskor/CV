@@ -3,9 +3,9 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.h3 {
+/* .h3 {
     font-weight: bold;
-}
+} */
 
 .title {
     font-style: italic;
@@ -45,7 +45,12 @@
 .lower-underline {
     border: 1px solid rgb(0, 136, 91);
     border-style: solid;
-    border-width: 0px 0px 2px 0px;    
+    border-width: 0px 0px 2px 0px;  
+   
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 .header-name-photo {

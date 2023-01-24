@@ -1,0 +1,195 @@
+body {
+    font-family: 'Inter', sans-serif;
+    text-decoration: solid;
+    font-size: 14px;
+    margin: 0;    
+}
+
+.chapter {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #263036;    
+    margin: 20px 40px 10px 40px;
+}
+
+.lower-underline {
+    border: 1px solid #1E1E1E;
+    border-style: solid;
+    border-width: 0px 0px 6px 0px;      
+    margin: 5px 40px 5px 40px; 
+    
+}
+
+.capital {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #263036;   
+    margin: 20px 40px 5px 40px;     
+}
+
+.languages {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1E1E1E;
+    margin: 5px 40px 5px 40px;
+}
+
+.regular {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #263036;
+    margin: 5px 40px 20px 40px;      
+}
+
+p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #263036;
+    margin: 20px 40px 20px 40px;
+}
+
+.links {
+    color: #1C2E8C;
+}
+
+
+.container-all {
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 385px 835px;
+    justify-content: center;
+}
+
+.container-left-1 {
+    display: grid;
+    height: 1667;
+    background: #86A3B4;    
+}
+
+.container-right-2 {
+
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 20px 40px 20px 40px;
+}
+
+/* NAME */
+.name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    margin: 58px 20px 0px 40px;
+}
+
+.surname {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1C2E8C;
+    margin: 0px 20px 20px 40px;
+}
+
+.image-candidate {
+    width: 385px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .CV {
+   color : #333;
+   font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* .h3 {
+    font-weight: bold;
+} */
+/* 
+.title {
+    font-style: italic;
+}
+
+.headers {
+    text-transform: uppercase;
+    background-color: aquamarine;
+    
+}
+
+.links {
+    color: #00f;
+}
+
+.links.visited {
+    color: #005;
+}
+
+.links:hover {
+    text-decoration: none;    
+}
+
+.items {
+    list-style-type: square;    
+}
+
+.background-table {
+    background-color: beige;
+    border-spacing: 0 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.image-candidate {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.lower-underline {
+    border: 1px solid rgb(0, 136, 91);
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;  
+   
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.header-name-photo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-position {
+    
+    display: flex;       */
+    /* justify-content: flex-start; 
+    }*/
+    

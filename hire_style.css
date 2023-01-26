@@ -7,8 +7,12 @@ body {
 
 
 .form-main {
-    width: 1024px;       
-    justify-content: center;    
+    width: 1024px;
+    height: 800px;       
+    /* justify-content: center; */
+    position: absolute;
+    left: calc(50% - 512px); 
+    top: calc(50% - 400px);   
 }
 
 input[type="submit"],

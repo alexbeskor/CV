@@ -61,20 +61,21 @@ p {
 
 
 .container-all {
+
     display: grid;
     width: 1200px;
     grid-template-columns: 385px 835px;
     justify-content: center;
 }
 
-.container-left-1 {
+.container-left-1 {    
     display: grid;
     height: 1667;
     background: #86A3B4;    
 }
 
 .container-right-2 {
-
+    overflow: scroll;
 }
 
 .skills {

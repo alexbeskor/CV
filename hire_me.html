@@ -1,67 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>    
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Hire me</title>
+    <link href="./hire_style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Inter:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hire me</h1>
-    <br/>
-    <h2>Contact information</h2>
-    <br/>
-    <table border="1" cellspacing="0" cellpadding="10">
-           
-        <tbody>
-            <tr>
-                <td><strong>Phone</strong></td>
-                <td>+380632634198</td>
-            </tr>
-            <tr>
-                <td><strong>Address</strong></td>
-                <td>Ukraine, Kyiv</td>
-            </tr>
-                  
-        </tbody>  
-    </table>
-
-    <form>
-        <fieldset>
-            <legend>Contact form</legend>
-
-            <label>
-                E-mail*:
-                <input
-                type="text"
-                name="E-mail"
-                placeholder="mail@mail.com"
-                required/>
-            </label>
-            <br/>   
+    <div class="form-main">
+            <h1>Hire me NEW FORM</h1>
+        
+        <h2>Contact information</h2>
+        
+        <table class="contact-info">
             
-            <label for="Description">Description:</label>
-            <br/>
-            <textarea
-            id="Description"            
-            name="Description"
-            rows="10"
-            cols="40">            
-            </textarea>
-            <br/>   
+            <tbody>
+                <tr>
+                    <td><strong>Phone</strong></td>
+                    <td>+380632634198</td>
+                </tr>
+                <tr>
+                    <td><strong>Address</strong></td>
+                    <td>Ukraine, Kyiv</td>
+                </tr>
+                    
+            </tbody>  
+        </table>
 
-            <label>
-                Work type
-                <select name="work-type">
-                    <option></option>
-                    <option value="Work-in-office">Work in office</option>
-                    <option value="Online-work">Online work</option>
-                    <option value="One-time-project">One time project</option>                                    
-                </select>
-            </label>
-            <br/>
-            <input
-            type="submit"
-            value="Hire me"
-            action="/hire_me.html" method="post"/><br/>
-           
+        <form>
+            <fieldset>
+                <legend>Contact form</legend>
 
+                <label>
+                    E-mail*:
+                    <input
+                    type="email"
+                    name="E-mail"
+                    placeholder="mail@mail.com"
+                    required/>
+                </label>
+                <br/>   
+                
+                <label for="Description">Description:</label>
+                <br/>
+                <textarea
+                id="Description"            
+                name="Description"                
+                >            
+                </textarea>
+                <br/>   
+
+                <label for="work-type">
+                    Work type
+                    <select name="work-type" class="work-type" >
+                        <option></option>
+                        <option value="Work-in-office">Work in office</option>
+                        <option value="Online-work">Online work</option>
+                        <option value="One-time-project">One time project</option>                                    
+                    </select>
+                </label>
+
+                <br/>
+
+                <input
+                type="submit"
+                value="Hire me"
+                action="/hire_me.html" method="post"/><br/>
+            </fieldset>
+        </form>
+
+    </div>
+
+    
 </body>
 </html>

@@ -89,6 +89,9 @@ p {
 
 .container-right-2 {
     overflow: scroll;
+    text-align: justify;
+    
+    
 }
 
 .skills {
@@ -127,6 +130,18 @@ p {
     width: 385px;
 }
 
+
+@media screen and (max-width: 550px) {
+    .container-all {        
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        grid-template-areas:
+            "container-left-1"
+            "container-right-2"
+        ;
+        max-width: 100%;
+    }
+}
 
 
 

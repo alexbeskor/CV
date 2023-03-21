@@ -11,3 +11,55 @@ html {
     --margin-regular: 5px 40px 20px 40px;
 }
 
+// Animation
+@mixin animation1 ($time) {
+    animation-duration: $time;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@mixin animationLeft ($time) {
+    -webkit-animation: slide-in-bottom $time ease-in-out both;
+	        animation: slide-in-bottom $time ease-in-out both;
+}
+
+@mixin animationRight ($time) {
+    -webkit-animation: slide-in-bottom $time ease-in-out .5s both;
+	        animation: slide-in-bottom $time ease-in-out .5s both;
+}
+
+
+// Keyframes
+@keyframes picture {
+    0% {
+        transform: translateX(30px);
+    }    
+    40% {
+        transform: translateX(60px);
+    }
+    100% {
+        transform: translateX(-90px);        
+    }
+}
+
+@keyframes experience {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-bottom {
+    0% {
+      -webkit-transform: translateY(2000px);
+              transform: translateY(2000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
